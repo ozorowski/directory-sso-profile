@@ -3,31 +3,40 @@
 
 #tab-content {
   padding-top: 40px;
-}
 
-#tab-content .span3:first-child {
-  min-height: 1px; /* avoids area appearing to collapse */
-  width: 220px;
-}
+  .span3:first-child {
+    min-height: 1px; /* avoids area appearing to collapse */
+    width: 220px;
+  }
 
-#tab-content h2 {
-  font-size: 36px;
-  line-height: 1.1em;
-  margin-bottom: 20px;
-}
+  h2 {
+    font-size: 36px;
+    line-height: 1.1em;
+    margin-bottom: 20px;
+  }
 
-#tab-content li {
-  list-style-type: disc;
-  margin: 0 0 10px 20px;
-  padding-left: 15px;
-}
+  h3 {
+    font-size: 20px;
+    font-weight: 600;
+  }
 
-#tab-content section {
-  margin-bottom: 156px;
-}
+  p {
+    margin-bottom: 40px;
+  }
 
-#tab-content ul {
-  margin-bottom: 30px;
+  li {
+    list-style-type: disc;
+    margin: 0 0 10px 20px;
+    padding-left: 15px;
+  }
+
+  section {
+    margin-bottom: 156px;
+  }
+
+  ul {
+    margin-bottom: 30px;
+  }
 }
 
 #profile-required ul {
@@ -60,12 +69,55 @@
 }
 
 .sso-profile-toolbar-buttons-container {
-    margin-top: 30px;
-    text-align: right;
+  margin-top: 30px;
+  text-align: right;
+
+  .button,
+  .link {
+    font-size: 16px;
+    margin-left: 20px;
+    white-space: nowrap;
+  }
 }
 
-.sso-profile-toolbar-buttons-container .button,
-.sso-profile-toolbar-buttons-container .link {
-  font-size: 16px;
-  margin-left: 20px;
+@media (max-width: 767px) {
+
+  .sso-profile-tab-container {
+    background: none;
+
+    li {
+      border-bottom: #ffffff solid 5px;
+      border-left: #ffffff solid 5px;
+      float: left;
+      margin: 0;
+      height: 90px;
+      width: 49.2%;
+      display: table;
+    }
+
+    li a {
+      height: 100%;
+      background-color: #F0F3F2;
+      border-bottom: 5px solid #F0F3F2;
+      letter-spacing: -0.3px;
+      text-align: center;
+      display: table-cell;
+      vertical-align: middle;
+      padding: 0;
+    }
+
+    li:nth-child(odd) {
+      border-right: none;
+      clear: left;
+    }
+
+    li.active {
+      background-color: transparent;
+      border-top: none;
+    }
+
+    li.active a {
+      border-bottom: 5px solid #E41F13;
+    }
+  }
 }

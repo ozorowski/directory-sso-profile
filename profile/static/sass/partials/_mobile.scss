@@ -1,6 +1,29 @@
 /* Mobile changes
  **********************/
+
+@media (max-width: 979px) {
+ body {
+   padding: 0;
+ }
+ .container {
+   max-width: 960px;
+   padding: 0;
+   width: 100%;
+ }
+}
+
+@media (min-width: 979px) {
+ .container {
+   max-width: 960px;
+   width: 100%;
+ }
+}
+
 @media (max-width: 767px) {
+
+  .h1 {
+    font-size: 30px;
+  }
 
   /* mobile hidden elements */
   .soo-startpage-image {
@@ -14,42 +37,6 @@
 
   .h1 {
     font-size: 30px;
-  }
-
-  .sso-profile-tab-container {
-    background: none;
-  }
-
-  .sso-profile-tab-container li {
-    border-bottom: #ffffff solid 5px;
-    border-left: #ffffff solid 5px;
-    float: left;
-    margin: 0;
-    width: 49.2%;
-  }
-
-  .sso-profile-tab-container li a {
-    background-color: #F0F3F2;
-    border-bottom: 5px solid #F0F3F2;
-    display: block;
-    letter-spacing: -0.3px;
-    min-height: 60px;
-    padding: 20px 0 0 0;
-    text-align: center;
-  }
-
-  .sso-profile-tab-container li:nth-child(odd) {
-    border-right: none;
-    clear: left;
-  }
-
-  .sso-profile-tab-container li.active {
-    background-color: transparent;
-    border-top: none;
-  }
-
-  .sso-profile-tab-container li.active a {
-    border-bottom: 5px solid #E41F13;
   }
 
   .sso-profile-toolbar-buttons-container {

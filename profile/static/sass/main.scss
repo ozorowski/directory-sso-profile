@@ -2,9 +2,9 @@
 
 @import './partials/base';
 @import './partials/buttons';
-@import './partials/mobile';
 @import './partials/tabs';
 @import './partials/utils';
+@import './partials/compatibility';
 
 @import './components/eig-tab';
 @import './components/email-alerts';
@@ -12,3 +12,4 @@
 @import './components/fab';
 @import './components/landing-page';
 @import './components/opportunities';
+@import './partials/mobile';
