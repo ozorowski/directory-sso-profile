@@ -7,6 +7,7 @@ __pycache__/
 config/staticfiles
 BrowserStackLocal
 node_modules/
+package-lock.json
 
 # C extensions
 *.so

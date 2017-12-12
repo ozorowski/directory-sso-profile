@@ -1,0 +1,71 @@
+/* Shared tab content
+ **********************/
+
+#tab-content {
+  padding-top: 40px;
+}
+
+#tab-content .span3:first-child {
+  min-height: 1px; /* avoids area appearing to collapse */
+  width: 220px;
+}
+
+#tab-content h2 {
+  font-size: 36px;
+  line-height: 1.1em;
+  margin-bottom: 20px;
+}
+
+#tab-content li {
+  list-style-type: disc;
+  margin: 0 0 10px 20px;
+  padding-left: 15px;
+}
+
+#tab-content section {
+  margin-bottom: 156px;
+}
+
+#tab-content ul {
+  margin-bottom: 30px;
+}
+
+#profile-required ul {
+  padding: 0;
+}
+
+.sso-profile-tab-container {
+    margin-top: 30px;
+    background-color: #F0F3F2;
+}
+
+.sso-profile-tab-container ul {
+    padding-left: 0;
+}
+
+.sso-profile-tab-container li.active {
+    background-color: white;
+    border-top: 5px solid #E41F13;
+}
+
+.sso-profile-tab-container li a {
+  display: block;
+  font-weight: bold;
+  color: #363636;
+  padding: 20px;
+}
+
+.sso-profile-toolbar-labels-container {
+    margin-top: 10px;
+}
+
+.sso-profile-toolbar-buttons-container {
+    margin-top: 30px;
+    text-align: right;
+}
+
+.sso-profile-toolbar-buttons-container .button,
+.sso-profile-toolbar-buttons-container .link {
+  font-size: 16px;
+  margin-left: 20px;
+}

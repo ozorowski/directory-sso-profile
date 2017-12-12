@@ -1,0 +1,12 @@
+{
+  "name": "directory-sso-profile",
+  "version": "1.0.0",
+  "description": "Directory of UK exporters UI service",
+  "main": "index.js",
+  "author": "DIT",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
+}

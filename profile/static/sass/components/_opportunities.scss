@@ -1,0 +1,40 @@
+
+.sso-profile-eig-opportunity-item {
+  border-bottom: solid 1px #999999;
+  padding-bottom: 30px;
+  margin-bottom: 30px;
+}
+
+.sso-profile-eig-opportunity-item:last-child {
+  border-bottom-width: 0;
+  padding-bottom: 0;
+  margin-bottom: 50px;
+}
+
+.sso-profile-eig-opportunity-item-title {
+  font-size: 24px;
+  font-weight: 500;
+  line-height: 1.29;
+  color: #00549f;
+  margin-bottom: 17px;
+}
+
+.sso-profile-eig-opportunity-item-description {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 1.39;
+  color: #4a4a4a;
+}
+
+.sso-profile-eig-opportunity-item-expires {
+  font-size: 18px;
+  line-height: 1.39;
+  color: #4a4a4a;
+  margin-bottom: 23px;
+}
+
+.sso-profile-eig-opportunity-item-application-link {
+  font-size: 16px;
+  line-height: 1.56;
+  color: #00549f;
+}
